@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <div class="bg"></div>
+    <div class="player-lives-container"><h1>Lives: <span class="player-lives-counter"></span> </h1> </div>
+    <div class="container"></div>
+    <div class="init">
+      <div class="init-bg"></div>
+      <div class="init-container">
+        <div class="init-msg">Memory Game</div>
+        <button class="init-button">Start</button>
+      </div>
+    </div>
+    
+    <div class="win">
+      <div class="win-bg"></div>
+      <div class="win-container">
+        <div class="win-msg">You Won</div>
+        <div class="win-buttons">
+          <button class="play-again">PLay again</button>
+          <button class="exit">Exit</button>
+        </div>
+      </div>
+    </div>
+    
+    <div class="lose">
+      <div class="lose-bg"></div>
+        <div class="lose-container">
+          <div class="lose-msg">Out Of lives , Game Over</div>
+          <div class="lose-buttons">
+            <button class="play-again">PLay again</button>
+            <button class="exit">Exit</button>
+          </div>
+        </div>
+      </div>
+    <script src="script.js"></script>
+  </body>
+</html>
